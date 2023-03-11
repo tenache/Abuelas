@@ -35,6 +35,7 @@ def serpapi_get_google_images(queries, folder_name='GoogleImgs'):
         }
 
         
+        
         search = GoogleSearch(params)         # where data extraction happens
 
         images_is_present = True
